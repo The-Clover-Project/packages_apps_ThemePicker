@@ -44,4 +44,11 @@
 
     <!-- Package name of the Camera app to be used when previewing icon shape and theme -->
     <string name="camera_package" translatable="false">com.android.camera2</string>
+
+    <!-- Dynamic colors -->
+    <style name="CustomizationTheme">
+        <item name="android:colorBackground">@color/system_surface_container</item>
+    </style>
+
+    <color name="toolbar_color">@color/system_surface_container</color>
 </resources>
